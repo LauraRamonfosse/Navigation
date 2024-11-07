@@ -6,7 +6,7 @@ export default function A(){
   
     return (
       <View style={styles.container}>
-        <Text>A Page</Text>
+        <Text>A</Text>
         <Button title="To B" onPress={() => navigation.navigate('B')} />
       </View>
     )
